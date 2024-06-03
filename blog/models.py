@@ -20,11 +20,14 @@ class Author(models.Model):
     
 class Post(models.Model):
     title = models.CharField(max_length=150)
-    excerpt = models.CharField(max_length=200)
+    excerpt = models.TextField(max_length=200)
     image_name = models.CharField(max_length=100)
     date = models.DateField(auto_now = True)
     slug = models.SlugField(unique = True,db_index=True)
     content = models.TextField(validators=[MinLengthValidator(10)])
     author = models.ForeignKey(Author,on_delete=models.SET_NULL,related_name="posts",null=True)
     tags = models.ManyToManyField(Tag)
+    image = models.ImageField(upload_to='blog/images', default='default.jpg', null=True, blank=True)     
+    def __str__(self):
+        return self.title
 
