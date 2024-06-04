@@ -12,7 +12,6 @@ My Blog
 
 {% block content %}
   <header id="main-navigation">
-    <h1><a href="">Shiwani's Blog</a></h1>
     <nav>
       <a href = "">All Posts</a>
     </nav>
@@ -23,16 +22,6 @@ My Blog
       <h2>SHIWANI'S BLOG</h2>
     </header>
     <p>Hi, I am SHIWANI and I love to blog about tech and the world!</p>
-  </section>
-
-  <section id="latest-posts">
-    <h2>My Latest Thoughts</h2>
-
-    <ul>
-      {% for post in posts %}
-        {% include "blog/includes/post.html" %}
-      {% endfor %}
-    </ul>
   </section>
 
   <section id="about">

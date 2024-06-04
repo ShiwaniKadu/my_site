@@ -3,7 +3,7 @@ body {
 }
 
 #main-navigation {
-  background-color: #390281;
+  background-color: #07f9f9;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
@@ -15,7 +15,7 @@ body {
 
 #all-posts h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
   color: #2e2e2e;
   margin: 3rem 0;
 }
@@ -30,8 +30,8 @@ ul {
 }
 
 .post img {
-  width: 7rem;
-  height: 7rem;
+  width: 5rem;
+  height: 5rem;
 }
 
 .post a {
