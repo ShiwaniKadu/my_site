@@ -1,21 +1,30 @@
+/* post.css */
+
+/* Style for individual post container */
 .post {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-  }
-  .post h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  .post p {
-    font-size: 1em;
-  }
-  .post a {
-    text-decoration: none;
-    color: #007bff;
-  }
-  .post a:hover {
-    text-decoration: underline;
-  }
-  
+  border: 1px solid black;
+  padding: 15px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+/* Style for the post title */
+.post-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: black;
+}
+
+/* Style for the post content */
+.post-content {
+  font-size: 1em;
+  color: black;
+  font-family: black
+}
+
+/* Style for the post metadata (e.g., date, author) */
+.post-meta {
+  font-size: 0.875em;
+  color: white;
+  margin-top: 10px;
+}
