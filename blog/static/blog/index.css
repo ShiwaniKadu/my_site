@@ -1,8 +1,6 @@
-/* Welcome Section */
 #welcome {
-  background: linear-gradient(to right top, #c94c34, #bac007);
+  background: linear-gradient(to right top, #6305dd, #390281);
   padding: 6rem 12%;
-  color: #ffffff;
 }
 
 #welcome header {
@@ -33,10 +31,8 @@
 #welcome p {
   color: white;
   font-size: 1.5rem;
-  line-height: 1.6;
 }
 
-/* Latest Posts Section */
 #latest-posts {
   background-color: white;
   padding: 2rem;
@@ -48,8 +44,6 @@
 
 #latest-posts h2 {
   text-align: center;
-  font-size: 2.5rem;
-  color: #333333;
 }
 
 #latest-posts ul {
@@ -62,34 +56,20 @@
 
 #latest-posts li {
   flex: 1;
-  background: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
 }
 
-#latest-posts li:hover {
-  transform: translateY(-5px);
-}
-
-/* About Section */
 #about {
   text-align: center;
   padding: 3rem;
   background-color: #e48900;
   margin-top: 5rem;
-  color: #ffffff;
 }
 
 #about h2 {
   font-size: 3rem;
-  margin-bottom: 1rem;
 }
 
 #about p {
   font-size: 1.5rem;
   color: #353535;
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: 1.6;
 }
